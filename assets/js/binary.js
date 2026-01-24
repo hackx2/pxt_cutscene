@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v2.0.63/---simulator","cdnUrl":"https://cdn.makecode.com","version":"2.0.0","target":"arcade","targetVersion":"2.0.63","repo":"hackx2/pxt_cutscene"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v2.0.63/---simulator","cdnUrl":"https://cdn.makecode.com","version":"1.0.0","target":"arcade","targetVersion":"2.0.63","repo":"hackx2/pxt_cutscene"}
 // total=1823622 new=29.95% cached=65.85% other=4.20%
 (function (ectx) {
 'use strict';
