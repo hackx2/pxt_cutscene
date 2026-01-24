@@ -1,24 +1,39 @@
- 
+# pxt_cutscene
 
+A lightweight, event-based cutscene system, for playing timed events.<br>
+The API is designed to be simple, and compatible with TypeScript, Python, and block-based usage...
 
-> Open this page at [https://hackx2.github.io/pxt_cutscene/](https://hackx2.github.io/pxt_cutscene/)
+Open this page at [hackx2.github.io/pxt_cutscene](https://hackx2.github.io/pxt_cutscene/)
 
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
 
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/hackx2/pxt_cutscene** and import
+1. open [https://arcade.makecode.com/](https://arcade.makecode.com/)
+2. click on **New Project**
+3. click on **Extensions** under the gearwheel menu
+4. search for **https://github.com/hackx2/pxt_cutscene** and import
 
-## Edit this project
 
-To edit this repository in MakeCode.
+## Basic Usage
 
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/hackx2/pxt_cutscene** and click import
+```ts
+const scene = cutscene.create();
+
+scene.add(500, "start", () => {
+    console.log("Cutscene started");
+});
+
+scene.add(1000, "dialogue", () => {
+    console.log("Hello, world!");
+});
+
+scene.stopWhenFinished = true;
+scene.start();
+```
+Alternatively, refer to [test.ts](https://github.com/hackx2/pxt_cutscene/blob/master/test.ts) for a more in-depth example.
+
+---
 
 #### Metadata (used for search, rendering)
 

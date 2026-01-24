@@ -6,7 +6,7 @@ cutscene.verboseMode = true;
 const SPEED: number = 100;
 //assets.image`cat1`
 // Create the cat sprite
-const cat: Sprite = sprites.create(sprites.food.smallBurger);
+const cat: Sprite = sprites.create(assets.image`cat1`);
 
 // Center the cat on screen
 cat.setPosition(screen.width / 2, screen.height / 2);
@@ -19,12 +19,12 @@ const cutsceneHandler = cutscene.create();
 cutsceneHandler.stopWhenFinished = true;
 
 // Walk right event (ID: "walkRight")
-cutsceneHandler.add(500, "walkRight", (handler) => {
+cutsceneHandler.add(500, "walkRight", () => {
     cat.vx = SPEED;
 });
 
 // Sine zoom event (ID: "zoom")
-cutsceneHandler.add(500, "zoom", (handler) => {
+cutsceneHandler.add(500, "zoom", () => {
     let t: number = 0;
     game.onUpdateInterval(25, () => {
         t += 0.1;
@@ -35,31 +35,33 @@ cutsceneHandler.add(500, "zoom", (handler) => {
 cutsceneHandler.remove("zoom"); // Remove zoom event
 
 // Stop event (ID: "stop")
-cutsceneHandler.add(2000, "stop", (handler) => {
+cutsceneHandler.add(2000, "stop", () => {
     cat.vx = 0;
 });
 
 // Jump event (ID: "jump")
-cutsceneHandler.add(2500, "jump", (handler) => {
+cutsceneHandler.add(2500, "jump", () => {
     cat.vy = -SPEED;
 });
 
+
+cutsceneHandler.add(2500, "jump", () => {
+    music.play(music.melodyPlayable(music.baDing), music.PlaybackMode.UntilDone)
+});
+
 // Fall event (ID: "fall")
-cutsceneHandler.add(2700, "fall", (handler) => {
-    effects.clouds.startScreenEffect()
+cutsceneHandler.add(2700, "fall", () => {
     cat.vy = SPEED;
 });
 
 // Land event (ID: "land")
-cutsceneHandler.add(2895, "land", (handler) => {
+cutsceneHandler.add(2895, "land", () => {
     cat.vy = 0;
 });
 
 // Walk right again (ID: "walkRight")
-cutsceneHandler.add(3100, "walkRight", (handler) => {
+cutsceneHandler.add(3100, "walkRight", () => {
     cat.vx = SPEED;
-
-    effects.clouds.endScreenEffect()
 });
 
 // Repeat the cutscene every 4.5 seconds

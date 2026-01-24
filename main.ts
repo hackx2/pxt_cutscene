@@ -1,9 +1,40 @@
+/*
+⠀⠀hmm⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀---⠀welcome to my awful code⠀---⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ (pls no bully 🥺🙏)⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀woah⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡇⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⠀⠀⢸⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣷⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣤⣾⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀meow⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡿⠿⠿⢿⣿⣿⣿⣿⡿⠿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⡇⠀⠀⢸⣿⣿⣿⣿⡇⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣯⣿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣷⣶⣶⣾⣿⣿⣿⣿⣷⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⠀⠀i do cool stuff???
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⠛⠛⠛⠛⠛⢛⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⣤⣤⣤⣤⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠿⠿⠿⣿⣿⠀⠀⠀⠀⠀⠸⣿⣿⠿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀                    special mention: https://c.tenor.com/JwYJXC-K2T0AAAAd/tenor.gif
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀⠀⣿⣿⠀⠀⠀⣿⣿⣿⣿⣿⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣶⣶⡆⠈⠉⠀⠀⠀⠈⠉⠉⠉⠁⢰⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀goober
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣧⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀i'm so silly :3
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢨⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⠛⠛⠛⠛⠛⢛⣿⣿⣿⣿⣟⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⢻⣿⣿⣿⣿⡟⠛⠛⠛⠛⠛⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡇⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀heyy! stop snooping around :<
+⠀⠀⠀⠀⠀⠀⠀⠀okayy⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀hmm⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀grrr⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+*/
 namespace cutscene {
-    /**
-     * Event method type
-     */
-    export type EventMethod = (I: CutsceneHandler) => void;
-
     /**
      * Event schema object
      */
@@ -21,100 +52,135 @@ namespace cutscene {
         /**
          * The event method to run.
          */
-        method: EventMethod // method
+        method: () => any // method
     }
 
+    /**
+     * Any class implementing this interface should have the following methods.
+     */
     export interface IHandler {
-        add(t: number, id: string, method: EventMethod): void
+        /**
+         * Adds a new event to the cutscene timeline.
+         * 
+         * @param time Time in milliseconds at which the event should trigger
+         * @param id Unique identifier for the event
+         * @param method Callback to execute when the event triggers
+         */
+        add(time: number, id: string, method: () => any): void
+
+        /**
+         * Removes all events with the specified ID from the cutscene.
+         * 
+         * @param id Identifier of the event(s) to remove
+         */
         remove(id: string): void
+
+        /**
+         * Starts cutscene playback, executing scheduled events according to their timeline.
+         */
         start(): void
+
+        /**
+         * Stops cutscene playback immediately.
+         */
         stop(): void
     }
 
     /**
-     * Enable verbosity (e.g. more descriptive commenting)
+     * Enable verbosity (e.g. more descriptive console logging)
      */
     export let verboseMode: boolean = false;
 
     // rest doesn't seem to work correctly on this version of typescript :<
     function verbose(...msg: any[]): void {
         if (!verboseMode) return;
-        console.log(`{CS:VERBOSE}: ${msg}`);
+        console.log(`{Cutscene:VERBOSE}: ${msg}`);
     }
 
     //% block
     export class CutsceneHandler implements IHandler {
-        // time since- y'know, right???
-        _time: number = 0;
+        // --------------------------- PUBLIC VARIABLES -----------------------------
 
+        /**
+         * Determines whether the cutscene should automatically stop
+         * after all registered events have been executed.
+         *
+         * When `true`, the handler stops itself once the last event has run.
+         * When `false`, the cutscene continues running until manually stopped,
+         * even if all events have already executed.
+         */
         public stopWhenFinished: boolean = false;
 
-        // An array of all locally registered events
-        _events: Event[] = [];
-        _startTime: number = 0;
-        _eventPtr: number = 0;
-        _isSorted: boolean = true;
+        /**
+         * Controls whether cutscene events are threadded, or not..
+         * 
+         * When `true`, each event is executed on it's own thread to avoid blocking the main game loop.
+         * When `false`, events run synchronously, which *may cause unintended consequences*.
+         */
+        public threadded: boolean = true;
 
-        // whether to continue updating, or not...
-        _continue: boolean = false;
-        private get continue(): boolean {
-            return this._continue;
-        }
+        // --------------------------- PRIVATE VARIABLES ----------------------------
+
+        _events: Event[] = []; // an array of all locally registered events
+        _startTime: number = 0; // time since- y'know, right???
+        _eventPointer: number = 0; // event index pointer
+        _isSorted: boolean = true; // whether the event array has been sorted, or not
+        _continue: boolean = false; // whether to continue updating, or not...
+
+        // GETTERS / SETTERS
+        private get continue(): boolean { return this._continue; }
         private set continue(v: boolean) {
             verbose(`Playback ${v ? "enabled" : "disabled"}`)
             this._continue = v;
         }
 
-        constructor() {
-            game.onUpdate(() => this._update());
-        }
+        // ----------------------------- CONSTRUCTOR --------------------------------
 
-        _update(): void {
-            if (!this.continue) return;
+        constructor() { game.onUpdate(() => this._update()); }
 
-            const currentTime: number = game.runtime() - this._startTime;
+        // ---------------------------- PUBLIC METHODS ------------------------------
 
-            while (this._eventPtr < this._events.length && this._events[this._eventPtr].time <= currentTime) {
-                const evnt: Event = this._events[this._eventPtr];
-                verbose(`Running "${evnt.id}" at ${evnt.time}ms`);
-                evnt.method(this); this._eventPtr++;
-            }
-
-            if (this.stopWhenFinished && this._eventPtr >= this._events.length) {
-                this.stop();
-            }
-        }
-
-        /** 
-         * Add an event to the handler's list.
+        /**
+         * Adds a new event to the cutscene.
+         * 
+         * @param time Time in milliseconds at which the event should trigger
+         * @param id Unique identifier for the event
+         * @param method Callback to execute when the event triggers
          */
-        //% block="add event $handler to $this with id $id at $t ms"
-        //% t.shadow=timePicker
-        //% draggableParameters="reporter"
+        //% block="add event $handler to $this with id $id at $time ms"
+        //% time.shadow=timePicker
         //% weight=99
         //% blockGap=8
         //% blockId="cutscene_add_event"
-        public add(t: number, id: string, handler: EventMethod): void {
-            this._events.push({ id: id, time: t, method: handler });
+        //% group="Basic"
+        public add(time: number, id: string, handler: any): void {
+            this._events.push({ id: id, time: time, method: handler });
             this._isSorted = false;
-            verbose(`Regsitered event to id "${id}" @ ${t / 1000} second(s)`);
+            verbose(`Registered event to id "${id}" @ ${time / 1000} second(s)`);
 
         }
 
         /**
-         * Remove an event.
+         * Removes all events with the specified ID.
+         * 
+         * @param id Event identifier to remove
          */
+        //% group="Controls"
         //% block="remove event from $this using $id"
         public remove(id: string): void {
             this._events = this._events.filter(e => e.id !== id)
         }
 
         /**
-         * Start the cutscene handler.
+         * Starts cutscene playback.
          */
+        //% group="Controls"
         //% block="start $this"
         public start(): void {
-            if (this._events.length === 0) return;
+            if (this._events.length === 0) {
+                throw 'You cannot start without adding at least 1 event...';
+                return;
+            }
 
             // Only sort if we've added new events
             if (!this._isSorted) {
@@ -122,50 +188,95 @@ namespace cutscene {
                 this._isSorted = true;
             }
 
-            this._eventPtr = 0;
+            // reset everything..
+            this._eventPointer = 0;
             this._startTime = game.runtime();
+
             this.continue = true;
         }
 
         /**
-         * Stop the cutscene handler.
+         * Stops cutscene playback immediately
          */
+        //% group="Controls"
         //% block="stop $this"
         public stop(): void {
             this.continue = false;
             // returning `this` messes blocks up :<
             // return this;
         }
+
+        // ---------------------------- PRIVATE METHODS ------------------------------
+
+        _update(): void {
+            if (!this.continue) return;
+
+            const currentTime: number = game.runtime() - this._startTime;
+
+            while (this._eventPointer < this._events.length && this._events[this._eventPointer].time <= currentTime) {
+                const evnt: Event = this._events[this._eventPointer]; // grab the event from the event array
+
+                // yummy verbosity
+                verbose(`Running "${evnt.id}" at ${evnt.time}ms`);
+
+                // grrr
+                const executeEventMethod = () => {
+                    try {
+                        evnt.method();
+                    } catch (err) {
+                        console.error(`Cutscene event "${evnt.id}" threw an error: ${err}`);
+                    }
+                }
+
+                // If `this.threadded` is true, execute the event asynchronously using setTimeout
+                // which'll prevent the event method from halting the main game loop. 
+                // Otherwise, execute it synchronously
+                if (this.threadded) // lil threadding hack :3
+                    setTimeout(executeEventMethod, 0); // run asynchronously
+                else
+                    executeEventMethod(); // run synchronously
+
+                this._eventPointer++;
+            }
+
+            if (this.stopWhenFinished && this._eventPointer >= this._events.length) {
+                this.stop(); // lightweight (ish)??? i cry :<
+            }
+        }
     }
 
     /**
-     * Use for registering events in block mode.
+     * Used for registering events in block mode.
      * I guess this could be used as some kind of signal-like handler, but eh...
-     * 
-     * To use events on block mode you'll need to require them using the `get global event` 
+     *
+     * To use events on block mode you'll need to require them using the `get global event`
      * (also known as `Registry.get("EVENT_NAME")`) block.
      */
     export class Registry {
         /**
-         * Event map
+         * Internal map of registered events keyed by their ID.
          */
-        static events: { [key: string]: EventMethod } = {};
+        public static events: { [key: string]: () => any } = {};
 
         /**
-         * Sets an event by it's `ID`.
-         * @param id the id reference to the event
-         * @param the event callback
+         * Registers a global cutscene event.
+         * 
+         * @param id Unique identifier for the event
+         * @param callback The event callback to execute when triggered
          */
-        static set(id: string, callback: (handler: CutsceneHandler) => void): void {
+        public static set(id: string, callback: () => any): void {
             Registry.events[id] = callback;
         }
 
         /**
-         * Retrieves an event by its `ID`.
-         * @param id the name of the event to get
+         * Retrieves a previously registered global event by ID.
+         * 
+         * @param id The unique identifier of the event
+         * @returns The registered `() => any` callback, or `undefined` if not found
          */
+        //% group="Registry"
         //% block="get global event $id"
-        static get(id: string): EventMethod {
+        public static get(id: string): () => any | undefined {
             return Registry.events[id];
         }
     }
@@ -182,14 +293,18 @@ namespace cutscene {
      */
     //% block="set global cutscene event $id"
     //% draggableParameters="reporter"
-    export function registerStaticEvent(id: string, callback: (handler: CutsceneHandler) => void): void {
+    //% group="Registry"
+    export function registerStaticEvent(id: string, callback: () => void): void {
         Registry.set(id, callback);
     }
 
     /**
-     * Create a cutscene handler
+     * Function to create a new `CutsceneHandler` instance.
+     * 
+     * @returns A new instance of `CutsceneHandler`
      */
     //% block="create cutscene"
+    //% group="Basic"
     export function create(): CutsceneHandler {
         return new CutsceneHandler();
     }
