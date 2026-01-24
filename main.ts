@@ -1,4 +1,3 @@
-//% color=190 weight=1 icon="\uf03d" block="Cutscene"
 namespace cutscene {
     /**
      * Event method type
