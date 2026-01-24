@@ -13,8 +13,12 @@
         "images.g.ts"
     ],
     "testFiles": [
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
         "test.ts"
     ],
+    "public": true,
     "targetVersions": {
         "target": "2.0.63",
         "targetId": "arcade"
