@@ -4,9 +4,9 @@
 cutscene.verboseMode = true;
 
 const SPEED: number = 100;
-
+//assets.image`cat1`
 // Create the cat sprite
-const cat: Sprite = sprites.create(assets.image`cat1`);
+const cat: Sprite = sprites.create(sprites.food.smallBurger);
 
 // Center the cat on screen
 cat.setPosition(screen.width / 2, screen.height / 2);
