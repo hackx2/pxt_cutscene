@@ -1,13 +1,14 @@
 {
     "name": "pxt_cutscene",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "device": "*"
     },
     "files": [
         "main.ts",
-        "README.md"
+        "README.md",
+        "tutorial-info-cache.json"
     ],
     "testFiles": [
         "assets.json",
