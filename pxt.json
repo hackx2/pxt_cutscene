@@ -1,0 +1,28 @@
+{
+    "name": "pxt_cutscene",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "tutorial-info-cache.json"
+    ],
+    "testFiles": [
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "2.1.30",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
