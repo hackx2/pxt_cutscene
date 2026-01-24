@@ -46,6 +46,7 @@ cutsceneHandler.add(2500, "jump", (handler) => {
 
 // Fall event (ID: "fall")
 cutsceneHandler.add(2700, "fall", (handler) => {
+    effects.clouds.startScreenEffect()
     cat.vy = SPEED;
 });
 
@@ -57,6 +58,8 @@ cutsceneHandler.add(2895, "land", (handler) => {
 // Walk right again (ID: "walkRight")
 cutsceneHandler.add(3100, "walkRight", (handler) => {
     cat.vx = SPEED;
+
+    effects.clouds.endScreenEffect()
 });
 
 // Repeat the cutscene every 4.5 seconds
