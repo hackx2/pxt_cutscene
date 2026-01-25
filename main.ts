@@ -36,6 +36,12 @@
 */
 namespace cutscene {
     /**
+     * CURRENT VERSION \
+     * https://semver.org/
+     */
+    export const VERSION: string = "1.1.0";
+
+    /**
      * Event schema object
      */
     export type Event = {
@@ -97,6 +103,18 @@ namespace cutscene {
         console.log(`{Cutscene:VERBOSE}: ${msg}`);
     }
 
+    /**
+     * Whether verbose mode should be enabled, or not..
+     * 
+     * @param value yes or no
+     */
+    //% group="Advanced"
+    //% block="set verbose mode to $value"
+    //% value.shadow=toggleOnOff
+    export function setVerboseMode(value: boolean): void {
+        cutscene.verboseMode = value;
+    }
+
     //% block
     export class CutsceneHandler implements IHandler {
         // --------------------------- PUBLIC VARIABLES -----------------------------
@@ -109,27 +127,27 @@ namespace cutscene {
          * When `false`, the cutscene continues running until manually stopped,
          * even if all events have already executed.
          */
-        public stopWhenFinished: boolean = false;
+        public autoStop: boolean = true;
 
         /**
-         * Controls whether cutscene events are threadded, or not..
+         * Controls whether cutscene events are threaded, or not..
          * 
          * When `true`, each event is executed on it's own thread to avoid blocking the main game loop.
          * When `false`, events run synchronously, which *may cause unintended consequences*.
          */
-        public threadded: boolean = true;
+        public threaded: boolean = true;
 
         // --------------------------- PRIVATE VARIABLES ----------------------------
 
-        _events: Event[] = []; // an array of all locally registered events
-        _startTime: number = 0; // time since- y'know, right???
-        _eventPointer: number = 0; // event index pointer
-        _isSorted: boolean = true; // whether the event array has been sorted, or not
-        _continue: boolean = false; // whether to continue updating, or not...
+        protected _events: Event[] = []; // an array of all locally registered events
+        protected _startTime: number = 0; // time since- y'know, right???
+        protected _eventPointer: number = 0; // event index pointer
+        protected _isSorted: boolean = true; // whether the event array has been sorted, or not
+        protected _continue: boolean = false; // whether to continue updating, or not...
 
         // GETTERS / SETTERS
-        private get continue(): boolean { return this._continue; }
-        private set continue(v: boolean) {
+        protected get continue(): boolean { return this._continue; }
+        protected set continue(v: boolean) {
             verbose(`Playback ${v ? "enabled" : "disabled"}`)
             this._continue = v;
         }
@@ -206,9 +224,33 @@ namespace cutscene {
             // return this;
         }
 
+        /**
+         * Whether to enable event threading.
+         * 
+         * @param value yes or no
+         */
+        //% group="Advanced"
+        //% block="set $this threaded to $value"
+        //% value.shadow=toggleOnOff
+        public setThreaded(value: boolean): void {
+            this.threaded = value;
+        }
+
+        /**
+         * Whether all the cutscene should stop once all events have been ran.
+         * 
+         * @param value yes or no
+         */
+        //% group="Basic"
+        //% block="set $this autostop to $value"
+        //% value.shadow=toggleOnOff
+        public setAutostop(value: boolean): void {
+            this.autoStop = value;
+        }
+
         // ---------------------------- PRIVATE METHODS ------------------------------
 
-        _update(): void {
+        protected _update(): void {
             if (!this.continue) return;
 
             const currentTime: number = game.runtime() - this._startTime;
@@ -228,10 +270,10 @@ namespace cutscene {
                     }
                 }
 
-                // If `this.threadded` is true, execute the event asynchronously using setTimeout
+                // If `this.threaded` is true, execute the event asynchronously using setTimeout
                 // which'll prevent the event method from halting the main game loop. 
                 // Otherwise, execute it synchronously
-                if (this.threadded) // lil threadding hack :3
+                if (this.threaded) // lil threadding hack :3
                     setTimeout(executeEventMethod, 0); // run asynchronously
                 else
                     executeEventMethod(); // run synchronously
@@ -239,7 +281,7 @@ namespace cutscene {
                 this._eventPointer++;
             }
 
-            if (this.stopWhenFinished && this._eventPointer >= this._events.length) {
+            if (this.autoStop && this._eventPointer >= this._events.length) {
                 this.stop(); // lightweight (ish)??? i cry :<
             }
         }

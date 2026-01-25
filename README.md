@@ -28,7 +28,6 @@ scene.add(1000, "dialogue", () => {
     console.log("Hello, world!");
 });
 
-scene.stopWhenFinished = true;
 scene.start();
 ```
 Alternatively, refer to [test.ts](https://github.com/hackx2/pxt_cutscene/blob/master/test.ts) for a more in-depth example.

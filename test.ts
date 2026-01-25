@@ -16,7 +16,7 @@ cat.scale = 0.7; // Set initial scale
 const cutsceneHandler = cutscene.create();
 
 // (Optional) Automatically stop once all events have finished running
-cutsceneHandler.stopWhenFinished = true;
+cutsceneHandler.autoStop = true;
 
 // Walk right event (ID: "walkRight")
 cutsceneHandler.add(500, "walkRight", () => {
